@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export interface SharePlugin {\n\tshare(options: { text: string; filename?: string }): Promise<{\n\t\tvalue: string;\n\t}>;\n}\n"]}

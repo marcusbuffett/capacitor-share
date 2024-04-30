@@ -1,0 +1,31 @@
+{
+  "api": {
+    "name": "SharePlugin",
+    "slug": "shareplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "share",
+        "signature": "(options: { text: string; filename?: string; }) => Promise<{ value: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ text: string; filename?: string | undefined; }"
+          }
+        ],
+        "returns": "Promise<{ value: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "share"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}

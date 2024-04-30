@@ -1,3 +1,5 @@
 export interface SharePlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+	share(options: { text: string; filename?: string }): Promise<{
+		value: string;
+	}>;
 }

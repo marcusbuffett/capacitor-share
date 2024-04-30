@@ -1,10 +1,11 @@
-import { WebPlugin } from '@capacitor/core';
+import { WebPlugin } from "@capacitor/core";
 
-import type { SharePlugin } from './definitions';
+import type { SharePlugin } from "./definitions";
 
 export class ShareWeb extends WebPlugin implements SharePlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
-  }
+	async share(_options: { text: string; filename?: string }): Promise<{
+		value: string;
+	}> {
+		return { value: "success" };
+	}
 }
